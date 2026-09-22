@@ -1,10 +1,6 @@
 # Pedro Nogueira · Quiropraxia e Terapia Manual
 
-Site institucional de página única para Pedro Nogueira, quiropraxia e terapia manual em Camocim, CE, com agendamento pelo WhatsApp.
-
-**Demo:** _em breve_
-
-## Screenshots
+Site de página única para o Pedro Nogueira, que atende com quiropraxia e terapia manual em Camocim (CE), no consultório e a domicílio. O agendamento é feito pelo WhatsApp.
 
 | Desktop (escuro) | Desktop (claro) |
 | --- | --- |
@@ -14,29 +10,29 @@ Site institucional de página única para Pedro Nogueira, quiropraxia e terapia 
 | --- | --- |
 | <img src=".github/screenshots/mobile-escuro.png" alt="Página inicial no tema escuro, mobile" width="300"> | <img src=".github/screenshots/mobile-claro.png" alt="Página inicial no tema claro, mobile" width="300"> |
 
-## Stack
+## Tecnologias
 
-HTML, CSS e JavaScript puros: um único `index.html`, sem framework e sem etapa de build.
+HTML, CSS e JavaScript puros, tudo no `index.html`. Sem framework e sem build.
 
 ## Funcionalidades
 
-- **Tema claro/escuro sem flash:** segue a preferência do sistema, lembra a escolha e aplica o tema antes da primeira pintura.
-- **Acessibilidade:** link para pular ao conteúdo, navegação por teclado, foco visível, `aria` nos controles e respeito a `prefers-reduced-motion`.
-- **Reveal com IntersectionObserver:** os blocos entram suavemente ao rolar, com fallback para que nada fique escondido.
-- **Agendamento pelo WhatsApp:** botões com mensagem pronta para consultório ou atendimento a domicílio.
-- **Responsivo:** layout pensado do celular ao desktop, com imagens WebP em vários tamanhos (`srcset`).
-- **SEO e compartilhamento:** metatags Open Graph/Twitter, favicon e dados estruturados (JSON-LD).
+- Tema claro e escuro: segue o sistema, lembra a escolha e é aplicado antes da página aparecer (sem piscar)
+- Botões de WhatsApp com mensagem pronta, para consultório ou atendimento em casa
+- Mapa do consultório (Google Maps) e perguntas frequentes
+- Imagens em WebP com `srcset`
+- Link para pular ao conteúdo, foco visível e suporte a `prefers-reduced-motion`
+- Open Graph, favicon e dados estruturados (JSON-LD)
 
-## Como rodar localmente
+## Rodando
 
-Abra o `index.html` no navegador. Para servir como em produção:
+Abra o `index.html` no navegador, ou sirva a pasta:
 
 ```bash
 npx serve .
 ```
 
-Para publicar, envie `index.html` e a pasta `assets/` para qualquer hospedagem estática. Depois de publicar, troque o `og:image` por uma URL absoluta e adicione `og:url`/`canonical` (há um comentário no `<head>` indicando onde).
+Para publicar, basta enviar o `index.html` e a pasta `assets/` para qualquer hospedagem estática. Depois, troque o `og:image` por uma URL absoluta e adicione `og:url` e `canonical` (tem um comentário no `<head>` indicando onde).
 
-## Créditos
+## Autor
 
-Desenvolvido por Anderson.
+Anderson Ferreira
