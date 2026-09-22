@@ -1,0 +1,7 @@
+# Originais das imagens (fonte em alta resolução, fora do site publicado)
+_originais/
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+desktop.ini

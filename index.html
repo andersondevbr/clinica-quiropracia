@@ -1,0 +1,1571 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#141414">
+  <script id="theme-init">
+  (function(){var t;try{t=localStorage.getItem('theme')}catch(e){}
+  if(t!=='light'&&t!=='dark')t=matchMedia('(prefers-color-scheme: light)').matches?'light':'dark';
+  var d=document.documentElement;d.classList.add('js');d.setAttribute('data-theme',t);
+  var m=document.querySelector('meta[name=theme-color]');if(m)m.content=t==='light'?'#f6f4ef':'#141414'})();
+  </script>
+  <meta name="description" content="Quiropraxia e terapia manual com Pedro Nogueira em Camocim, CE. Atendimento no consultório e a domicílio. Converse pelo WhatsApp para agendar.">
+  <title>Pedro Nogueira · Quiropraxia e Terapia Manual em Camocim</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:site_name" content="Pedro Nogueira · Quiropraxia e Terapia Manual">
+  <meta property="og:title" content="Pedro Nogueira · Quiropraxia e Terapia Manual em Camocim">
+  <meta property="og:description" content="Quiropraxia e terapia manual em Camocim, CE. Atendimento no consultório e a domicílio. Agende pelo WhatsApp.">
+  <!-- Após publicar, troque por URL absoluta (https://SEU-DOMINIO/...) e adicione og:url/canonical -->
+  <meta property="og:image" content="assets/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Logo de Pedro Nogueira, quiropraxia e terapia manual, ao lado de um retrato de Pedro">
+  <meta name="twitter:card" content="summary_large_image">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Chiropractor",
+    "name": "Pedro Nogueira · Quiropraxia e Terapia Manual",
+    "description": "Quiropraxia e terapia manual em Camocim, CE. Atendimento no consultório e a domicílio.",
+    "telephone": "+55-88-99342-3091",
+    "priceRange": "A partir de R$ 150",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Rua 24 de Maio, 1931 - Centro",
+      "addressLocality": "Camocim",
+      "addressRegion": "CE",
+      "addressCountry": "BR"
+    },
+    "areaServed": "Camocim, CE",
+    "hasMap": "https://www.google.com/maps/search/?api=1&query=Rua+24+de+Maio%2C+1931%2C+Centro%2C+Camocim%2C+CE"
+  }
+  </script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;450;500;550;600;650;700&display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;450;500;550;600;650;700&display=swap"></noscript>
+<style>
+:root {
+  color-scheme: dark;
+  --bg: #141414;
+  --surface: #1a1a19;
+  --text: #f5f3ee;
+  --muted: #b7b5b0;
+  --subtle: #92908b;
+  --line: rgba(255, 255, 255, 0.13);
+  --soft: #ceccc6;
+  --accent-soft: #b8b5ad;
+  --link-line: #77756e;
+  --btn-bg: #fff;
+  --btn-bg-hover: #f5f3ee;
+  --btn-fg: #171717;
+  --btn-glow: 0 0 16px #ffffff18;
+  --btn-glow-hover: 0 0 24px #ffffff30;
+  --header-bg: rgba(20, 20, 20, 0.94);
+  --media-bg: #222;
+  --hero-glow: #44403955;
+  --cap-bg: #141414a8;
+  --cap-line: #ffffff18;
+  --cap-text: #ddd;
+  --focus: #fff;
+  --sel-bg: #f5f3ee;
+  --sel-fg: #141414;
+  --logo-filter: none;
+  --header-shadow: 0 12px 32px -18px #000000cc;
+  --radius: 12px;
+  --font: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+:root[data-theme="light"] {
+  color-scheme: light;
+  --bg: #f6f4ef;
+  --surface: #edeae3;
+  --text: #171717;
+  --muted: #57554f;
+  --subtle: #6b6961;
+  --line: rgba(0, 0, 0, 0.13);
+  --soft: #3a3935;
+  --accent-soft: #77746c;
+  --link-line: #8a877f;
+  --btn-bg: #171717;
+  --btn-bg-hover: #000;
+  --btn-fg: #fff;
+  --btn-glow: 0 2px 10px #00000022;
+  --btn-glow-hover: 0 4px 18px #00000038;
+  --header-bg: rgba(246, 244, 239, 0.94);
+  --media-bg: #e6e3dc;
+  --hero-glow: #d8d3c88a;
+  --cap-bg: #f6f4efd9;
+  --cap-line: #0000001a;
+  --cap-text: #3a3935;
+  --focus: #171717;
+  --sel-bg: #171717;
+  --sel-fg: #f6f4ef;
+  --logo-filter: invert(1);
+  --header-shadow: 0 12px 30px -20px #00000059;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 104px;
+}
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font);
+  font-size: 16px;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+body,
+h1,
+h2,
+h3,
+p,
+figure {
+  margin: 0;
+}
+button,
+a,
+summary {
+  -webkit-tap-highlight-color: transparent;
+}
+button,
+a {
+  touch-action: manipulation;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+button {
+  font: inherit;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+button:focus-visible,
+a:focus-visible,
+summary:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 6px;
+}
+::selection {
+  background: var(--sel-bg);
+  color: var(--sel-fg);
+}
+[hidden] {
+  display: none !important;
+}
+.page {
+  isolation: isolate;
+  overflow: clip;
+}
+.watermark {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  display: grid;
+  place-items: center;
+}
+.watermark img {
+  filter: var(--logo-filter);
+  width: 88vw;
+  height: auto;
+  max-width: 1300px;
+  max-height: 80vh;
+  object-fit: contain;
+  opacity: 0.025;
+  user-select: none;
+}
+.wrap {
+  width: min(1184px, calc(100% - 96px));
+  margin-inline: auto;
+}
+.section {
+  padding-block: 104px;
+  border-top: 1px solid var(--line);
+}
+.eyebrow {
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 550;
+  letter-spacing: 0.17em;
+  color: var(--muted);
+  line-height: 1.8;
+}
+.eyebrow::before {
+  content: "";
+  display: inline-block;
+  width: 22px;
+  height: 1px;
+  background: currentColor;
+  vertical-align: middle;
+  margin-right: 12px;
+}
+h1,
+h2,
+h3 {
+  font-weight: 500;
+  letter-spacing: -0.045em;
+  line-height: 1.15;
+  color: var(--text);
+}
+h2 {
+  font-size: clamp(30px, 3.1vw, 44px);
+  text-wrap: balance;
+}
+h3 {
+  font-size: 22px;
+  letter-spacing: -0.025em;
+}
+.copy {
+  color: var(--muted);
+  font-size: 15px;
+  line-height: 1.85;
+}
+.copy + .copy {
+  margin-top: 16px;
+}
+.text-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 18px;
+  padding-block: 6px;
+  border-bottom: 1px solid var(--link-line);
+  font-size: 13px;
+  font-weight: 500;
+}
+.text-link span {
+  transition: transform 0.2s;
+}
+.text-link:hover span {
+  transform: translate(2px, -2px);
+}
+.button {
+  min-height: 50px;
+  padding: 14px 22px;
+  display: inline-flex;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid transparent;
+  border-radius: 7px;
+  font-size: 13px;
+  line-height: 1.5;
+  font-weight: 600;
+  transition:
+    background 0.2s,
+    box-shadow 0.2s,
+    transform 0.2s;
+  cursor: pointer;
+  text-align: center;
+}
+.button-primary {
+  background: var(--btn-bg);
+  color: var(--btn-fg);
+  box-shadow: var(--btn-glow);
+}
+.button-primary:hover {
+  background: var(--btn-bg-hover);
+  box-shadow: var(--btn-glow-hover);
+  transform: translateY(-1px);
+}
+.button-quiet {
+  border-color: var(--line);
+  color: var(--text);
+  background: transparent;
+}
+.button-quiet:hover {
+  background: var(--line);
+  border-color: var(--muted);
+}
+.button span {
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 1;
+}
+.site-header {
+  position: fixed;
+  inset: 0 0 auto;
+  z-index: 30;
+  transition:
+    box-shadow 0.35s,
+    border-color 0.35s;
+  background: var(--header-bg);
+  backdrop-filter: blur(16px);
+  border-bottom: 1px solid var(--line);
+}
+.header-inner {
+  height: 88px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 26px;
+}
+.brand {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.brand img {
+  filter: var(--logo-filter);
+  width: 64px;
+  height: 60px;
+  object-fit: contain;
+}
+.brand-name {
+  font-size: 14px;
+  font-weight: 550;
+  letter-spacing: -0.02em;
+  line-height: 1.4;
+}
+.brand-name small {
+  display: block;
+  font-size: 11px;
+  letter-spacing: 0.015em;
+  font-weight: 400;
+  color: var(--muted);
+  margin-top: 3px;
+}
+.desktop-nav {
+  display: flex;
+  align-items: center;
+  gap: 26px;
+}
+.site-header.is-scrolled {
+  box-shadow: var(--header-shadow);
+}
+.desktop-nav a {
+  position: relative;
+  font-size: 12px;
+  color: var(--muted);
+  transition: color 0.25s;
+}
+.desktop-nav a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -7px;
+  height: 1px;
+  background: currentColor;
+  transform: scaleX(0);
+  transform-origin: 0 50%;
+  transition: transform 0.4s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+.desktop-nav a:hover::after,
+.desktop-nav a[aria-current="true"]::after {
+  transform: scaleX(1);
+}
+.desktop-nav a[aria-current="true"] {
+  color: var(--text);
+}
+.desktop-nav a:hover {
+  color: var(--text);
+}
+.header-cta {
+  min-height: 42px;
+  padding: 10px 18px;
+  font-size: 12px;
+}
+.menu-toggle {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  background: transparent;
+  border: 1px solid var(--line);
+  border-radius: 7px;
+  color: var(--text);
+}
+.menu-toggle svg {
+  width: 21px;
+  height: 21px;
+}
+.mobile-nav {
+  padding: 12px 24px 24px;
+  border-top: 1px solid var(--line);
+  max-height: calc(100svh - 80px);
+  overflow-y: auto;
+}
+.mobile-nav a {
+  display: block;
+  padding: 14px 0;
+  font-size: 16px;
+  border-bottom: 1px solid var(--line);
+}
+.mobile-nav .button {
+  display: flex;
+  margin-top: 20px;
+  padding: 14px;
+}
+.scroll-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  z-index: 40;
+  background: var(--text);
+  opacity: 0.5;
+  transform: scaleX(0);
+  transform-origin: 0 50%;
+  pointer-events: none;
+}
+@supports (animation-timeline: scroll()) {
+  .scroll-progress {
+    animation: progress linear both;
+    animation-timeline: scroll(root block);
+  }
+}
+@keyframes progress {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+.skip-link {
+  position: fixed;
+  left: 18px;
+  top: -80px;
+  z-index: 50;
+  background: white;
+  color: black;
+  padding: 12px 20px;
+  border-radius: 5px;
+}
+.skip-link:focus {
+  top: 12px;
+}
+.hero {
+  position: relative;
+  padding-top: 142px;
+  display: grid;
+  grid-template-columns: 1.12fr 0.88fr;
+  align-items: center;
+  gap: 40px;
+  min-height: 780px;
+}
+.hero-copy {
+  padding: 28px 0 64px;
+  position: relative;
+  z-index: 2;
+}
+.hero h1 {
+  font-size: clamp(44px, 4.7vw, 66px);
+  line-height: 1.09;
+  letter-spacing: -0.055em;
+  margin: 24px 0;
+}
+.hero h1 span {
+  color: var(--accent-soft);
+}
+.hero-intro {
+  max-width: 470px;
+  font-size: 16px;
+  line-height: 1.8;
+  color: var(--muted);
+}
+.hero-actions {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 30px 0;
+}
+.home-note {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  max-width: 460px;
+  font-size: 13px;
+  color: var(--muted);
+}
+.home-note svg {
+  width: 19px;
+  height: 19px;
+  flex-shrink: 0;
+  margin-top: 2px;
+  color: var(--soft);
+}
+.home-note strong {
+  font-weight: 500;
+  color: var(--text);
+  display: block;
+}
+.hero-photo {
+  align-self: end;
+  position: relative;
+  margin: 0;
+  min-width: 0;
+}
+.hero-photo::before {
+  content: "";
+  position: absolute;
+  inset: 13% -5% 2%;
+  border-radius: 50% 50% 0 0;
+  background: radial-gradient(ellipse at 50% 70%, var(--hero-glow), transparent 72%);
+  z-index: -1;
+}
+.hero-photo img {
+  width: 100%;
+  height: auto;
+  max-height: 650px;
+  object-fit: contain;
+  object-position: center bottom;
+  mask-image: linear-gradient(#000 86%, transparent);
+  -webkit-mask-image: linear-gradient(#000 86%, transparent);
+}
+.hero-photo figcaption {
+  position: absolute;
+  bottom: 36px;
+  left: 25px;
+  font-size: 11px;
+  line-height: 1.7;
+  letter-spacing: 0.025em;
+  color: var(--cap-text);
+  background: var(--cap-bg);
+  padding: 11px 16px;
+  border: 1px solid var(--cap-line);
+  border-radius: 6px;
+}
+.hero-photo figcaption strong {
+  display: block;
+  font-size: 14px;
+  font-weight: 550;
+  color: var(--text);
+}
+.hero-meta {
+  grid-column: 1/-1;
+  display: flex;
+  gap: 32px;
+  justify-content: space-between;
+  padding: 21px 0;
+  border-top: 1px solid var(--line);
+  font-size: 11px;
+  letter-spacing: 0.025em;
+  color: var(--muted);
+}
+.hero-meta span {
+  color: var(--text);
+}
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+}
+.section-heading h2 {
+  margin-top: 22px;
+}
+.about-body {
+  padding-top: 6px;
+}
+.signature {
+  margin-top: 28px;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  color: var(--text);
+}
+.signature span {
+  display: block;
+  font-size: 11px;
+  font-weight: 400;
+  letter-spacing: 0.025em;
+  color: var(--subtle);
+  margin-top: 3px;
+}
+.steps {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 36px;
+  margin-top: 58px;
+}
+.step {
+  border-top: 1px solid var(--line);
+  padding-top: 22px;
+}
+.step-label {
+  color: var(--subtle);
+  font-size: 11px;
+  letter-spacing: 0.13em;
+  margin-bottom: 14px;
+}
+.step h3 {
+  font-size: 18px;
+  letter-spacing: -0.02em;
+  margin-bottom: 12px;
+}
+.step p {
+  font-size: 13px;
+  color: var(--muted);
+  line-height: 1.8;
+}
+.treatments-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  gap: 48px;
+  margin-bottom: 42px;
+}
+.treatments-head .copy {
+  max-width: 375px;
+}
+.treatment-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 44px 30px;
+}
+.treatment {
+  min-width: 0;
+}
+.treatment-media {
+  aspect-ratio: 16/9;
+  background: var(--media-bg);
+  overflow: hidden;
+  border-radius: 9px;
+  border: 1px solid var(--line);
+}
+.treatment img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transition: transform 0.4s;
+}
+.treatment:hover img {
+  transform: scale(1.015);
+}
+.treatment h3 {
+  margin: 20px 0 10px;
+  font-size: 21px;
+}
+.treatment p {
+  max-width: 460px;
+  font-size: 14px;
+  color: var(--muted);
+}
+.audience {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  padding-top: 64px;
+  margin-top: 64px;
+  border-top: 1px solid var(--line);
+}
+.audience h2 {
+  font-size: 31px;
+}
+.audience h2,
+.audience .copy {
+  margin-top: 20px;
+}
+.audience-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border-top: 1px solid var(--line);
+}
+.audience-list li {
+  padding: 12px 0;
+  border-bottom: 1px solid var(--line);
+  font-size: 14px;
+  color: var(--soft);
+  display: flex;
+  justify-content: space-between;
+  gap: 18px;
+}
+.audience-list span {
+  color: var(--subtle);
+  font-size: 12px;
+}
+.home-section {
+  background: var(--surface);
+  border-block: 1px solid var(--line);
+  padding-block: 80px;
+}
+.home-grid {
+  display: grid;
+  grid-template-columns: 1.05fr 0.95fr;
+  gap: 80px;
+  align-items: center;
+}
+.home-grid h2 {
+  font-size: clamp(32px, 3.5vw, 48px);
+  margin: 22px 0 24px;
+}
+.home-grid .copy {
+  max-width: 480px;
+}
+.home-panel {
+  border-left: 1px solid var(--line);
+  padding-left: 48px;
+}
+.home-panel p {
+  font-size: 14px;
+  line-height: 1.85;
+  color: var(--muted);
+  margin-bottom: 24px;
+}
+.home-panel strong {
+  display: block;
+  color: var(--text);
+  font-size: 17px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.home-panel small {
+  display: block;
+  color: var(--subtle);
+  font-size: 11px;
+  margin-top: 16px;
+}
+.faq-grid {
+  display: grid;
+  grid-template-columns: 0.8fr 1.2fr;
+  gap: 80px;
+}
+.faq-grid .copy {
+  margin-top: 24px;
+  max-width: 310px;
+}
+.faq-list {
+  border-top: 1px solid var(--line);
+}
+.faq-list details {
+  border-bottom: 1px solid var(--line);
+}
+.faq-list summary {
+  list-style: none;
+  cursor: pointer;
+  padding: 23px 36px 23px 0;
+  position: relative;
+  font-weight: 450;
+  line-height: 1.55;
+  font-size: 15px;
+  color: var(--text);
+}
+.faq-list summary::-webkit-details-marker {
+  display: none;
+}
+.faq-list summary::after {
+  content: "+";
+  position: absolute;
+  right: 3px;
+  top: 20px;
+  font-size: 23px;
+  color: var(--muted);
+  font-weight: 400;
+}
+.faq-list details[open] summary::after {
+  content: "−";
+}
+.faq-list details[open] summary {
+  color: var(--text);
+}
+.faq-list details p {
+  padding: 0 28px 24px 0;
+  font-size: 14px;
+  color: var(--muted);
+  line-height: 1.85;
+}
+.location-grid {
+  display: grid;
+  grid-template-columns: 0.85fr 1.15fr;
+  gap: 70px;
+  align-items: center;
+}
+.address {
+  font-style: normal;
+  font-size: 17px;
+  line-height: 1.7;
+  margin: 26px 0 16px;
+  color: var(--soft);
+}
+.location-grid .copy {
+  font-size: 13px;
+  margin-bottom: 24px;
+}
+.map {
+  aspect-ratio: 4/3;
+  min-height: 320px;
+  overflow: hidden;
+  border-radius: 10px;
+  background: var(--media-bg);
+  border: 1px solid var(--line);
+}
+.map iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  display: block;
+  filter: grayscale(1);
+}
+.contact {
+  padding-block: 80px;
+  border-top: 1px solid var(--line);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 48px;
+}
+.contact h2 {
+  font-size: clamp(30px, 3.5vw, 46px);
+  margin: 18px 0;
+}
+.contact .copy {
+  max-width: 500px;
+  font-size: 14px;
+}
+.contact .button {
+  flex-shrink: 0;
+  min-width: 235px;
+}
+.footer {
+  border-top: 1px solid var(--line);
+  padding: 32px 0 88px;
+}
+.footer-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+.footer img {
+  filter: var(--logo-filter);
+  width: 125px;
+  height: 54px;
+  object-fit: contain;
+}
+.footer p {
+  font-size: 11px;
+  color: var(--subtle);
+}
+.footer-links {
+  display: flex;
+  gap: 24px;
+  font-size: 11px;
+  color: var(--muted);
+}
+.floating-contact {
+  position: fixed;
+  bottom: 22px;
+  right: 24px;
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: var(--btn-bg);
+  color: var(--btn-fg);
+  padding: 12px 17px;
+  border-radius: 999px;
+  box-shadow: 0 4px 24px #0004;
+  font-size: 12px;
+  font-weight: 550;
+  border: 1px solid var(--btn-bg);
+}
+.floating-contact svg {
+  width: 19px;
+  height: 19px;
+}
+.floating-contact {
+  transition:
+    transform 0.28s cubic-bezier(0.22, 0.61, 0.36, 1),
+    box-shadow 0.28s;
+}
+.floating-contact:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 30px #0000004d;
+}
+.theme-toggle {
+  position: relative;
+  flex-shrink: 0;
+  width: 60px;
+  height: 32px;
+  padding: 0;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--surface);
+  cursor: pointer;
+  color: var(--text);
+  transition: border-color 0.2s;
+}
+.theme-toggle:hover {
+  border-color: var(--muted);
+}
+.theme-toggle:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 3px;
+}
+.theme-toggle svg {
+  position: absolute;
+  top: 50%;
+  width: 14px;
+  height: 14px;
+  margin-top: -7px;
+  color: var(--subtle);
+}
+.theme-toggle .i-sun {
+  left: 9px;
+}
+.theme-toggle .i-moon {
+  right: 9px;
+}
+.theme-toggle::after {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: var(--btn-bg);
+  box-shadow: 0 1px 4px #0004;
+  transition: transform 0.3s cubic-bezier(0.5, 0, 0.2, 1);
+}
+:root:not([data-theme="light"]) .theme-toggle::after {
+  transform: translateX(28px);
+}
+:root[data-theme="light"] .theme-toggle .i-sun,
+:root:not([data-theme="light"]) .theme-toggle .i-moon {
+  color: var(--btn-fg);
+  z-index: 1;
+}
+.theme-anim,
+.theme-anim * {
+  transition:
+    background-color 0.35s,
+    color 0.35s,
+    border-color 0.35s,
+    opacity 0.35s,
+    transform 0.35s !important;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .js {
+    --rv-y: 26px;
+  }
+  .js
+    :is(
+      .hero-copy > *,
+      .hero-meta,
+      .about-grid > *,
+      .step,
+      .treatments-head > *,
+      .treatment,
+      .audience > div,
+      .audience-list li,
+      .home-grid > *,
+      .faq-grid > .section-heading,
+      .faq-list details,
+      .location-grid > *,
+      .contact > *,
+      .footer-inner > *
+    ) {
+    opacity: 0;
+    transform: translate3d(0, var(--rv-y), 0);
+    transition:
+      opacity 0.85s cubic-bezier(0.22, 0.61, 0.36, 1),
+      transform 0.85s cubic-bezier(0.22, 0.61, 0.36, 1);
+  }
+  .js .treatment .treatment-media img {
+    scale: 1.07;
+    transition:
+      scale 1.1s cubic-bezier(0.22, 0.61, 0.36, 1),
+      transform 0.4s;
+  }
+  .js .map iframe {
+    transition: opacity 0.9s ease 0.15s;
+  }
+  .js .map:not(.is-in) iframe {
+    opacity: 0;
+  }
+  .js .hero-photo {
+    animation: hero-rise 0.9s cubic-bezier(0.22, 0.61, 0.36, 1) both;
+  }
+  @keyframes hero-rise {
+    from {
+      transform: translate3d(0, var(--rv-y), 0);
+    }
+  }
+  .js:not(.rv-live)
+    :is(
+      .hero-copy > *,
+      .hero-meta,
+      .about-grid > *,
+      .step,
+      .treatments-head > *,
+      .treatment,
+      .audience > div,
+      .audience-list li,
+      .home-grid > *,
+      .faq-grid > .section-heading,
+      .faq-list details,
+      .location-grid > *,
+      .contact > *,
+      .footer-inner > *
+    ) {
+    animation: rv-safe 0.6s 2.5s both;
+  }
+  @keyframes rv-safe {
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+  .js .is-in {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+  .js .treatment.is-in .treatment-media img {
+    scale: 1;
+  }
+  @supports (animation-timeline: view()) {
+    .js .hero-photo img {
+      animation: float-out linear both;
+      animation-timeline: view(block);
+      animation-range: cover 35% cover 100%;
+    }
+    .js .treatment-media img {
+      animation: drift linear both;
+      animation-timeline: view(block);
+      animation-range: entry 20% exit 100%;
+    }
+    .watermark img {
+      animation: breathe linear both;
+      animation-timeline: scroll(root block);
+    }
+  }
+}
+@keyframes float-out {
+  to {
+    translate: 0 -34px;
+  }
+}
+@keyframes drift {
+  from {
+    translate: 0 3%;
+  }
+  to {
+    translate: 0 -3%;
+  }
+}
+@keyframes breathe {
+  from {
+    transform: scale(0.96) rotate(-2.5deg);
+    opacity: 0.018;
+  }
+  to {
+    transform: scale(1.12) rotate(2.5deg);
+    opacity: 0.05;
+  }
+}
+@media (min-width: 1024px) {
+  .mobile-nav {
+    display: none !important;
+  }
+}
+@media (max-width: 1100px) {
+  .desktop-nav {
+    gap: 18px;
+  }
+  .wrap {
+    width: calc(100% - 64px);
+  }
+  .hero {
+    gap: 18px;
+    min-height: 720px;
+  }
+  .hero h1 {
+    font-size: 54px;
+  }
+  .hero-photo img {
+    max-height: 570px;
+  }
+  .hero-actions {
+    gap: 18px;
+  }
+  .about-grid,
+  .home-grid,
+  .faq-grid,
+  .location-grid {
+    gap: 48px;
+  }
+}
+@media (max-width: 1023px) {
+  .desktop-nav {
+    display: none;
+  }
+  .menu-toggle {
+    display: flex;
+  }
+  .header-cta {
+    margin-left: auto;
+  }
+  .header-inner {
+    height: 80px;
+  }
+  .hero {
+    min-height: 0;
+    padding-top: 124px;
+    grid-template-columns: 1.1fr 0.9fr;
+  }
+  .hero h1 {
+    font-size: 44px;
+  }
+  .hero-copy {
+    padding-bottom: 32px;
+  }
+  .hero-meta {
+    margin-top: 0;
+  }
+  .hero-photo figcaption {
+    left: 10px;
+    bottom: 22px;
+  }
+  .hero-intro {
+    font-size: 15px;
+  }
+  .hero-actions .text-link {
+    font-size: 12px;
+  }
+  .section {
+    padding-block: 80px;
+  }
+}
+@media (max-width: 767px) {
+  .js {
+    --rv-y: 18px;
+  }
+  .theme-toggle {
+    width: 52px;
+    height: 30px;
+  }
+  .theme-toggle::after {
+    width: 22px;
+    height: 22px;
+  }
+  :root:not([data-theme="light"]) .theme-toggle::after {
+    transform: translateX(22px);
+  }
+  .theme-toggle .i-sun {
+    left: 8px;
+  }
+  .theme-toggle .i-moon {
+    right: 8px;
+  }
+  html {
+    scroll-padding-top: 94px;
+  }
+  .wrap {
+    width: calc(100% - 40px);
+  }
+  .header-inner {
+    gap: 14px;
+    height: 76px;
+  }
+  .brand img {
+    width: 46px;
+    height: 48px;
+  }
+  .brand-name {
+    font-size: 13px;
+  }
+  .brand-name small {
+    font-size: 11px;
+  }
+  .brand {
+    gap: 8px;
+  }
+  .header-cta {
+    font-size: 11px;
+    padding: 9px 12px;
+    min-height: 39px;
+    gap: 10px;
+  }
+  .menu-toggle {
+    width: 40px;
+    height: 40px;
+  }
+  .hero {
+    padding-top: 116px;
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  .hero-copy {
+    padding: 0;
+  }
+  .hero .eyebrow {
+    font-size: 11px;
+    letter-spacing: 0.13em;
+  }
+  .hero h1 {
+    font-size: clamp(38px, 9.5vw, 58px);
+    margin: 20px 0;
+    max-width: 600px;
+  }
+  .hero-intro {
+    max-width: 510px;
+    font-size: 15px;
+  }
+  .hero-actions {
+    margin: 26px 0;
+    gap: 22px;
+  }
+  .hero-photo {
+    width: min(390px, 100%);
+    justify-self: center;
+    margin-top: 30px;
+  }
+  .hero-photo img {
+    max-height: 430px;
+  }
+  .hero-photo figcaption {
+    left: 12px;
+    bottom: 22px;
+  }
+  .hero-meta {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 7px 20px;
+    padding: 20px 0;
+    margin: 0;
+    font-size: 11px;
+  }
+  .section {
+    padding-block: 64px;
+  }
+  .about-grid,
+  .audience,
+  .home-grid,
+  .faq-grid,
+  .location-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  .steps {
+    grid-template-columns: 1fr;
+    gap: 22px;
+    margin-top: 36px;
+  }
+  .step {
+    display: grid;
+    grid-template-columns: 38px 1fr;
+    column-gap: 12px;
+    padding-top: 20px;
+  }
+  .step .step-label {
+    grid-column: 1;
+    grid-row: 1/3;
+    margin-top: 4px;
+  }
+  .step h3 {
+    margin-bottom: 8px;
+  }
+  .step p {
+    grid-column: 2;
+  }
+  .treatments-head {
+    display: block;
+    margin-bottom: 30px;
+  }
+  .treatments-head .copy {
+    margin-top: 20px;
+  }
+  .treatment-grid {
+    grid-template-columns: 1fr;
+    gap: 34px;
+  }
+  .treatment h3 {
+    font-size: 20px;
+  }
+  .audience {
+    margin-top: 44px;
+    padding-top: 44px;
+  }
+  .audience h2 {
+    font-size: 29px;
+  }
+  .home-section {
+    padding-block: 60px;
+  }
+  .home-panel {
+    padding: 26px 0 0;
+    border-left: 0;
+    border-top: 1px solid var(--line);
+  }
+  .home-panel small {
+    max-width: 280px;
+  }
+  .faq-grid .copy {
+    max-width: none;
+    margin-top: 16px;
+  }
+  .faq-list summary {
+    font-size: 15px;
+  }
+  .map {
+    min-height: 290px;
+  }
+  .contact {
+    padding-block: 60px;
+    display: block;
+  }
+  .contact .button {
+    margin-top: 26px;
+    width: 100%;
+    max-width: 360px;
+  }
+  .footer {
+    padding-bottom: 88px;
+  }
+  .footer-inner {
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+  .footer p {
+    max-width: 180px;
+  }
+  .footer-links {
+    width: 100%;
+  }
+  .floating-contact {
+    bottom: 14px;
+    right: 16px;
+    font-size: 11px;
+    padding: 11px 15px;
+  }
+}
+@media (max-width: 479px) {
+  .header-cta {
+    display: none;
+  }
+  .menu-toggle {
+    margin-left: auto;
+  }
+}
+@media (max-width: 359px) {
+  .hero-actions {
+    align-items: stretch;
+    flex-direction: column;
+  }
+  .hero-actions .text-link {
+    align-self: flex-start;
+  }
+  .hero h1 {
+    font-size: 36px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+</style>
+
+</head>
+<body>
+
+
+
+<div class="page">
+<div class="scroll-progress" aria-hidden="true"></div>
+<a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+<div class="watermark" aria-hidden="true"><img src="assets/logo-white-640.webp" alt="" width="640" height="480" draggable="false"></div>
+<header class="site-header">
+  <div class="header-inner wrap">
+    <a class="brand" href="#inicio" aria-label="Pedro Nogueira — início"><img src="assets/logo-white-640.webp" alt="" width="640" height="480"><span class="brand-name">Pedro Nogueira<small>Quiropraxia e terapia manual</small></span></a>
+    <nav class="desktop-nav" aria-label="Navegação principal"><a href="#sobre">Sobre</a><a href="#procedimentos">Tratamentos</a><a href="#domicilio">Em casa</a><a href="#faq">Dúvidas</a><a href="#localizacao">Localização</a></nav>
+    <a class="button button-primary header-cta" href="https://api.whatsapp.com/send/?phone=5588993423091&amp;text=Ol%C3%A1%2C%20Pedro!%20Gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o.%20Podemos%20conversar%20sobre%20os%20hor%C3%A1rios%3F" target="_blank" rel="noopener">Agendar <span aria-hidden="true">↗</span></a>
+    <button class="theme-toggle" type="button" role="switch" aria-checked="true" aria-label="Alternar tema claro ou escuro"><svg class="i-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"></path></svg><svg class="i-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"></path></svg></button>
+    <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="mobile-nav"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"></path></svg></button>
+  </div>
+  <nav id="mobile-nav" class="mobile-nav" aria-label="Navegação móvel" hidden><a href="#sobre">Sobre Pedro</a><a href="#procedimentos">Tratamentos</a><a href="#domicilio">Atendimento em casa</a><a href="#faq">Dúvidas frequentes</a><a href="#localizacao">Localização</a><a class="button button-primary" href="https://api.whatsapp.com/send/?phone=5588993423091&amp;text=Ol%C3%A1%2C%20Pedro!%20Gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o.%20Podemos%20conversar%20sobre%20os%20hor%C3%A1rios%3F" target="_blank" rel="noopener">Agendar pelo WhatsApp <span aria-hidden="true">↗</span></a></nav>
+</header>
+<main id="conteudo" tabIndex="-1">
+<section id="inicio" class="hero wrap" aria-labelledby="hero-title">
+  <div class="hero-copy">
+    <p class="eyebrow">Pedro Nogueira · Camocim, CE</p>
+    <h1 id="hero-title">Quiropraxia<br>e terapia manual.<br><span>Perto de você.</span></h1>
+    <p class="hero-intro">Atendo no Centro de Camocim e também na sua casa. Me conte o que está incomodando e vamos conversar sobre o atendimento.</p>
+    <div class="hero-actions"><a class="button button-primary" href="https://api.whatsapp.com/send/?phone=5588993423091&amp;text=Ol%C3%A1%2C%20Pedro!%20Gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o.%20Podemos%20conversar%20sobre%20os%20hor%C3%A1rios%3F" target="_blank" rel="noopener">Agendar uma avaliação <span aria-hidden="true">↗</span></a><a class="text-link" href="#sobre">Conheça meu trabalho <span aria-hidden="true">↓</span></a></div>
+    <a class="home-note" href="#domicilio"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m3 11 9-8 9 8M5 9v12h14V9M9 21v-7h6v7"></path></svg><span><strong>Também atendo a domicílio.</strong>Combine disponibilidade e valores pelo WhatsApp.</span></a>
+  </div>
+  <figure class="hero-photo"><img src="assets/photo-pedro-retrato-800.webp" srcset="assets/photo-pedro-retrato-480.webp 480w, assets/photo-pedro-retrato-800.webp 800w, assets/photo-pedro-retrato-1200.webp 1200w" sizes="(max-width: 767px) min(390px, calc(100vw - 40px)), (max-width: 1100px) 45vw, 504px" alt="Pedro Nogueira, profissional de quiropraxia e terapia manual" width="1200" height="1200" fetchPriority="high"><figcaption><strong>Pedro Nogueira</strong>Quiropraxia &amp; terapia manual</figcaption></figure>
+  <div class="hero-meta"><p><span>Consultório</span> · Centro, Camocim</p><p><span>Em casa</span> · Atendimento a combinar</p><p><span>A partir de R$ 150</span> · Valor conforme atendimento</p></div>
+</section>
+<section id="sobre" class="section wrap" aria-labelledby="about-title">
+  <div class="about-grid"><div class="section-heading"><p class="eyebrow">Sobre o atendimento</p><h2 id="about-title">Primeiro, entender<br>o que você sente.</h2></div><div class="about-body"><p class="copy">Sou Pedro Nogueira. Meu trabalho com quiropraxia e terapia manual começa por entender o que está incomodando e como isso interfere na sua rotina.</p><p class="copy">Na avaliação, conversamos sobre suas necessidades e definimos os próximos passos do cuidado. Você pode vir ao consultório ou combinar um atendimento em casa.</p><p class="signature">Pedro Nogueira<span>Quiropraxia e terapia manual · Camocim, CE</span></p></div></div>
+  <div class="steps"><div class="step"><p class="step-label">01</p><h3>Uma conversa</h3><p>Você me conta o que sente, sua rotina e o que espera do atendimento.</p></div><div class="step"><p class="step-label">02</p><h3>A avaliação</h3><p>Avalio sua postura e seus movimentos para entender seu caso.</p></div><div class="step"><p class="step-label">03</p><h3>Os próximos passos</h3><p>Conversamos sobre as técnicas e combinamos o plano de cuidado.</p></div></div>
+</section>
+<section id="procedimentos" class="section wrap" aria-labelledby="treatment-title">
+  <div class="treatments-head"><div class="section-heading"><p class="eyebrow">Tratamentos</p><h2 id="treatment-title">Como posso ajudar.</h2></div><p class="copy">Estas são algumas técnicas com que trabalho. A escolha depende da avaliação e do que faz sentido para o seu caso.</p></div>
+  <div class="treatment-grid"><article class="treatment"><div class="treatment-media"><img src="assets/tratamento-ventosaterapia-640.webp" srcset="assets/tratamento-ventosaterapia-640.webp 640w, assets/tratamento-ventosaterapia-1200.webp 1200w" sizes="(max-width: 767px) calc(100vw - 40px), (max-width: 1100px) calc(50vw - 47px), 577px" alt="Mão aplicando ventosas de acrílico nas costas de um paciente, em arte com o título “Você conhece os benefícios da Ventosaterapia?”" loading="lazy" decoding="async" width="1200" height="675"></div><h3>Ventosaterapia</h3><p>Aplicação de ventosas, conforme a avaliação e o objetivo do atendimento.</p></article>
+<article class="treatment"><div class="treatment-media"><img src="assets/tratamento-massagem-relaxante-640.webp" srcset="assets/tratamento-massagem-relaxante-640.webp 640w, assets/tratamento-massagem-relaxante-1200.webp 1200w" sizes="(max-width: 767px) calc(100vw - 40px), (max-width: 1100px) calc(50vw - 47px), 577px" alt="Paciente deitado de bruços recebendo massagem nas costas em sala com luz de velas, com o título “Massagem relaxante”" loading="lazy" decoding="async" width="1200" height="675"></div><h3>Massagem relaxante</h3><p>Técnicas manuais de massagem e liberação miofascial, adaptadas ao seu atendimento.</p></article>
+<article class="treatment"><div class="treatment-media"><img src="assets/tratamento-ajuste-quiropratico-640.webp" srcset="assets/tratamento-ajuste-quiropratico-640.webp 640w, assets/tratamento-ajuste-quiropratico-1200.webp 1200w" sizes="(max-width: 767px) calc(100vw - 40px), (max-width: 1100px) calc(50vw - 47px), 577px" alt="Terapeuta posicionando as mãos nas costas de um paciente deitado na maca durante um ajuste" loading="lazy" decoding="async" width="1200" height="675"></div><h3>Ajuste quiroprático</h3><p>Técnicas de mobilização e ajuste articular, quando indicadas após a avaliação.</p></article>
+<article class="treatment"><div class="treatment-media"><img src="assets/tratamento-condicionamento-640.webp" srcset="assets/tratamento-condicionamento-640.webp 640w, assets/tratamento-condicionamento-1200.webp 1200w" sizes="(max-width: 767px) calc(100vw - 40px), (max-width: 1100px) calc(50vw - 47px), 577px" alt="Terapeuta atendendo um paciente deitado em maca dentro de uma academia de musculação" loading="lazy" decoding="async" width="1200" height="675"></div><h3>Condicionamento</h3><p>Exercícios de força e resistência definidos de acordo com sua avaliação.</p></article></div>
+  <div id="para-quem" class="audience"><div><p class="eyebrow">Sua rotina</p><h2>O desconforto está<br>atrapalhando seu dia?</h2><p class="copy">A avaliação ajuda a entender quais cuidados são adequados para você.</p></div><ul class="audience-list"><li>Tensões do dia a dia <span>01</span></li><li>Dificuldade para se movimentar <span>02</span></li><li>Cuidado com uma rotina ativa <span>03</span></li><li>Mais atenção ao próprio corpo <span>04</span></li></ul></div>
+</section>
+<section id="domicilio" class="home-section" aria-labelledby="home-title"><div class="home-grid wrap"><div><p class="eyebrow">Atendimento a domicílio</p><h2 id="home-title">Prefere ser atendido<br>na sua casa?</h2><p class="copy">Também realizo atendimento a domicílio. Você me passa sua localização e combinamos os detalhes antes de agendar.</p></div><div class="home-panel"><p><strong>Vamos combinar sua visita.</strong>Envie seu bairro, os horários que funcionam para você e o que está sentindo. Confirmamos a disponibilidade e o valor para o seu endereço.</p><a class="button button-primary" href="https://api.whatsapp.com/send/?phone=5588993423091&amp;text=Ol%C3%A1%2C%20Pedro!%20Gostaria%20de%20atendimento%20a%20domic%C3%ADlio.%20Podemos%20combinar%20disponibilidade%20e%20valores%20para%20o%20meu%20endere%C3%A7o%3F" target="_blank" rel="noopener">Consultar atendimento em casa <span aria-hidden="true">↗</span></a><small>Disponibilidade e valor definidos antes do agendamento.</small></div></div></section>
+<section id="faq" class="section wrap" aria-labelledby="faq-title"><div class="faq-grid"><div class="section-heading"><p class="eyebrow">Perguntas frequentes</p><h2 id="faq-title">Antes de agendar.</h2><p class="copy">Algumas informações para você saber como funciona. Se tiver outra dúvida, pode falar comigo.</p></div><div class="faq-list"><details><summary>Como faço para agendar?</summary><p>Fale comigo pelo WhatsApp e me diga quais horários funcionam para você. Podemos combinar o atendimento no consultório ou em casa.</p></details>
+<details><summary>Você atende a domicílio?</summary><p>Sim. Envie seu bairro ou endereço pelo WhatsApp para combinarmos a disponibilidade e o valor do atendimento em casa.</p></details>
+<details><summary>Quanto custa o atendimento?</summary><p>Os atendimentos partem de R$ 150. O valor final depende do tratamento e do local. Combinamos tudo antes do agendamento.</p></details>
+<details><summary>Como é a primeira consulta?</summary><p>Primeiro conversamos sobre o que está incomodando e sua rotina. Em seguida, avalio sua postura e seus movimentos e explico os próximos passos do atendimento.</p></details>
+<details><summary>Quantas sessões vou precisar?</summary><p>Depende da avaliação inicial. Conversamos sobre os próximos passos e acompanhamos sua evolução.</p></details>
+<details><summary>Preciso levar alguma coisa?</summary><p>Use roupas confortáveis. Se tiver exames ou laudos relacionados ao que está sentindo, leve para a avaliação.</p></details></div></div></section>
+<section id="localizacao" class="section wrap" aria-labelledby="location-title"><div class="location-grid"><div class="section-heading"><p class="eyebrow">O consultório</p><h2 id="location-title">No Centro<br>de Camocim.</h2><address class="address">Rua 24 de Maio, 1931<br>Centro · Camocim, CE</address><p class="copy">Atendimento com agendamento pelo WhatsApp.<br>Também disponível a domicílio.</p><a class="text-link" href="https://www.google.com/maps/search/?api=1&amp;query=Rua+24+de+Maio%2C+1931%2C+Centro%2C+Camocim%2C+CE" target="_blank" rel="noopener">Ver rota no Google Maps <span aria-hidden="true">↗</span></a></div><div class="map"><iframe title="Localização do consultório: Rua 24 de Maio, 1931, Camocim" src="https://www.google.com/maps?q=Rua+24+de+Maio%2C+1931%2C+Centro%2C+Camocim%2C+CE&amp;z=16&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe></div></div></section>
+<section id="contato" class="contact wrap" aria-labelledby="contact-title"><div><p class="eyebrow">Fale comigo</p><h2 id="contact-title">Vamos marcar?</h2><p class="copy">Me conte o que está incomodando e se prefere atendimento no consultório ou em casa.</p></div><a class="button button-primary" href="https://api.whatsapp.com/send/?phone=5588993423091&amp;text=Ol%C3%A1%2C%20Pedro!%20Gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o.%20Podemos%20conversar%20sobre%20os%20hor%C3%A1rios%3F" target="_blank" rel="noopener">Conversar pelo WhatsApp <span aria-hidden="true">↗</span></a></section>
+</main>
+<footer class="footer"><div class="footer-inner wrap"><a href="#inicio" aria-label="Voltar ao início"><img src="assets/logo-white-640.webp" alt="Pedro Nogueira" width="640" height="480" loading="lazy" decoding="async"></a><p>© 2026 Pedro Nogueira<br>Quiropraxia e terapia manual</p><div class="footer-links"><a href="#localizacao">Como chegar</a><a href="#inicio">Voltar ao início ↑</a></div></div></footer>
+<a class="floating-contact" href="https://api.whatsapp.com/send/?phone=5588993423091&amp;text=Ol%C3%A1%2C%20Pedro!%20Gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o.%20Podemos%20conversar%20sobre%20os%20hor%C3%A1rios%3F" target="_blank" rel="noopener" aria-label="Agendar atendimento pelo WhatsApp"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M21 11.5a8.5 8.5 0 0 1-12.7 7.4L3 21l1.8-5.4A8.5 8.5 0 1 1 21 11.5Z"></path><path d="M8 7.5c.6 4 2.6 6 6.5 7l1.5-2-2.5-1-1 1c-1.5-.7-2.5-1.7-3-3l1-1L9.5 6Z"></path></svg>Agendar</a>
+</div>
+
+<script>
+(() => {
+  const root = document.documentElement;
+  const themeBtn = document.querySelector('.theme-toggle');
+  const themeMeta = document.querySelector('meta[name=theme-color]');
+  function syncTheme() {
+    const dark = root.getAttribute('data-theme') !== 'light';
+    themeBtn.setAttribute('aria-checked', String(dark));
+    themeBtn.setAttribute('aria-label', dark ? 'Tema escuro ativo. Mudar para claro' : 'Tema claro ativo. Mudar para escuro');
+  }
+  syncTheme();
+  themeBtn.addEventListener('click', () => {
+    const next = root.getAttribute('data-theme') === 'light' ? 'dark' : 'light';
+    root.classList.add('theme-anim');
+    root.setAttribute('data-theme', next);
+    if (themeMeta) themeMeta.content = next === 'light' ? '#f6f4ef' : '#141414';
+    try { localStorage.setItem('theme', next); } catch (e) {}
+    syncTheme();
+    setTimeout(() => root.classList.remove('theme-anim'), 400);
+  });
+  const toggle = document.querySelector('.menu-toggle');
+  const menu = document.getElementById('mobile-nav');
+  function setOpen(open) {
+    menu.hidden = !open;
+    toggle.setAttribute('aria-expanded', String(open));
+    toggle.setAttribute('aria-label', open ? 'Fechar menu' : 'Abrir menu');
+  }
+  toggle.addEventListener('click', () => setOpen(menu.hidden));
+  menu.addEventListener('click', (event) => {
+    if (event.target.closest('a')) setOpen(false);
+  });
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape' && !menu.hidden) { setOpen(false); toggle.focus(); }
+  });
+  window.addEventListener('resize', () => {
+    if (window.innerWidth >= 1024) setOpen(false);
+  });
+})();
+
+(() => {
+  const reveal = '.hero-copy > *, .hero-meta, .about-grid > *, .step, .treatments-head > *, .treatment, .audience > div, .audience-list li, .home-grid > *, .faq-grid > .section-heading, .faq-list details, .location-grid > *, .contact > *, .footer-inner > *';
+  const items = Array.from(document.querySelectorAll(reveal));
+  const still = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const canWatch = typeof IntersectionObserver === 'function';
+  const frame = window.requestAnimationFrame ? window.requestAnimationFrame.bind(window) : setTimeout;
+  const batches = new WeakMap();
+  let waiting = [];
+
+  // Items come in together, so each batch fans out from the first one to arrive.
+  function show(item) {
+    if (item.classList.contains('is-in')) return;
+    const group = item.parentElement;
+    const last = batches.get(group);
+    const now = Date.now();
+    const order = last && now - last.at < 400 ? last.order + 1 : 0;
+    batches.set(group, { order, at: now });
+    item.style.transitionDelay = Math.min(order, 5) * 90 + 'ms';
+    item.classList.add('is-in');
+  }
+
+  // Safety net: the observer can miss the first screen while the page is still
+  // settling, and nothing may ever be hidden that the reader cannot see.
+  function sweep() {
+    if (!waiting.length) return;
+    const edge = window.innerHeight || 0;
+    waiting = waiting.filter((item) => {
+      if (item.classList.contains('is-in')) return false;
+      const box = item.getBoundingClientRect();
+      if (box.top > edge || box.bottom < 0) return true;
+      show(item);
+      return false;
+    });
+  }
+
+  if (still || !canWatch) {
+    items.forEach((item) => item.classList.add('is-in'));
+  } else {
+    // Tells the stylesheet to drop its "reveal anyway" safety animation.
+    document.documentElement.classList.add('rv-live');
+    waiting = items.slice();
+    const watcher = new IntersectionObserver((entries) => {
+      for (const entry of entries) {
+        if (!entry.isIntersecting) continue;
+        watcher.unobserve(entry.target);
+        show(entry.target);
+      }
+    }, { rootMargin: '0px 0px -8% 0px', threshold: 0.12 });
+    items.forEach((item) => watcher.observe(item));
+    // Two paths, because frames are paused in a background tab and timers are not.
+    frame(() => frame(sweep));
+    setTimeout(sweep, 250);
+    window.addEventListener('load', sweep);
+  }
+
+  if (canWatch) {
+    const links = Array.from(document.querySelectorAll('.desktop-nav a[href^="#"]'));
+    const sections = links.map((link) => document.getElementById(link.getAttribute('href').slice(1))).filter(Boolean);
+    if (sections.length) {
+      const onScreen = new Set();
+      const spy = new IntersectionObserver((entries) => {
+        for (const entry of entries) {
+          if (entry.isIntersecting) onScreen.add(entry.target);
+          else onScreen.delete(entry.target);
+        }
+        const current = sections.find((section) => onScreen.has(section));
+        for (const link of links) {
+          if (current && link.getAttribute('href') === '#' + current.id) link.setAttribute('aria-current', 'true');
+          else link.removeAttribute('aria-current');
+        }
+      }, { rootMargin: '-45% 0px -50% 0px' });
+      sections.forEach((section) => spy.observe(section));
+    }
+  }
+
+  const header = document.querySelector('.site-header');
+  let pending = false;
+  function syncHeader() {
+    header.classList.toggle('is-scrolled', (window.scrollY || window.pageYOffset || 0) > 8);
+  }
+  window.addEventListener('scroll', () => {
+    if (pending) return;
+    pending = true;
+    frame(() => { pending = false; syncHeader(); sweep(); });
+  }, { passive: true });
+  syncHeader();
+})();
+</script>
+</body>
+</html>
