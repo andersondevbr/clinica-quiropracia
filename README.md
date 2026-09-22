@@ -2,6 +2,8 @@
 
 Site de página única para o Pedro Nogueira, que atende com quiropraxia e terapia manual em Camocim (CE), no consultório e a domicílio. O agendamento é feito pelo WhatsApp.
 
+Site: https://andersondevbr.github.io/clinica-quiropracia/
+
 | Desktop (escuro) | Desktop (claro) |
 | --- | --- |
 | ![Página inicial no tema escuro, desktop](.github/screenshots/desktop-escuro.png) | ![Página inicial no tema claro, desktop](.github/screenshots/desktop-claro.png) |
